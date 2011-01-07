@@ -128,7 +128,7 @@ namespace Scratchy
             if (i< right)
                 QuickSort(unsorted, i, right);
         }
-        public static void QuickSortVisualizer(int[] unsorted, int left, int right)
+        public static void QuickSortVis(int[] unsorted, int left, int right)
         {
             
             int pivotValue = unsorted[(left + right) / 2];
