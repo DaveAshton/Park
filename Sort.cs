@@ -49,14 +49,12 @@ namespace Scratchy
                     if (comp < 0)
                     {
                         ret.Add(left[leftCounter]);
-                        //ret[retCounter] = left[leftCounter];
                         retCounter++;
                         leftCounter++;
                     }
                     else if (comp > 0)
                     {
                         ret.Add(right[rightCounter]);
-                        //ret[retCounter] = right[rightCounter];
                         retCounter++;
                         rightCounter++;
                     }
@@ -64,14 +62,12 @@ namespace Scratchy
                 else if (leftCounter < left.Length)
                 {
                     ret.Add(left[leftCounter]);
-                    //ret[retCounter] = left[leftCounter];
                     retCounter++;
                     leftCounter++;
                 }
                 else if (rightCounter < right.Length)
                 {
                     ret.Add(right[rightCounter]);
-                    //ret[retCounter] = right[rightCounter];
                     retCounter++;
                     rightCounter++;
                 }
